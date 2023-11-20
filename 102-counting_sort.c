@@ -49,7 +49,7 @@ void counting_sort(int *array, size_t size)
 	for (i = 0; i < size; ++i)
 	{
 		tmp[counter[array[i]] - 1] = array[i];
-		counter[array[i]]--;
+		counter[array[i]];
 	}
 	/* replace old array to new array sorted */
 	for (i = 0; i < size; i++)
